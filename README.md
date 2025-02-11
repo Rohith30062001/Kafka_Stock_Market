@@ -60,11 +60,11 @@ CREATE TABLE stock_data (
 ## Running the Application
 ### Start the Kafka Producer
 ```sh
-python producer.py
+python utils/producer.py
 ```
 ### Start the Kafka Consumer
 ```sh
-python consumer.py
+python utils/consumer.py
 ```
 
 ---
