@@ -20,8 +20,8 @@ This project fetches real-time stock market data from an API, streams it to **Ap
 ## Installation & Setup
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-repo/stock-data-pipeline.git
-cd stock-data-pipeline
+git clone https://github.com/Rohith30062001/Kafka_Stock_Market.git
+cd kafka_stock_market
 ```
 
 ### 2. Set Up Virtual Environment
