@@ -17,6 +17,7 @@ consumer = KafkaConsumer(
     bootstrap_servers="localhost:9092",
     value_deserializer=lambda v: json.loads(v.decode('utf-8')),
     auto_offset_reset="earliest",
+    group_id="stock-consumer-group",  # 🔥 Assign a group ID
     enable_auto_commit=True
 )
 
